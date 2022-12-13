@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dataEtat" targetNamespace="http://tempuri.org/dataEtat.xsd" xmlns:mstns="http://tempuri.org/dataEtat.xsd" xmlns="http://tempuri.org/dataEtat.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dataEtat" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dataEtat" msprop:Generator_UserDSName="dataEtat">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListePromOption" msprop:Generator_TableClassName="ListePromOptionDataTable" msprop:Generator_TableVarName="tableListePromOption" msprop:Generator_TablePropName="ListePromOption" msprop:Generator_RowDeletingName="ListePromOptionRowDeleting" msprop:Generator_RowChangingName="ListePromOptionRowChanging" msprop:Generator_RowEvHandlerName="ListePromOptionRowChangeEventHandler" msprop:Generator_RowDeletedName="ListePromOptionRowDeleted" msprop:Generator_UserTableName="ListePromOption" msprop:Generator_RowChangedName="ListePromOptionRowChanged" msprop:Generator_RowEvArgName="ListePromOptionRowChangeEvent" msprop:Generator_RowClassName="ListePromOptionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CodOpt" msprop:Generator_ColumnVarNameInTable="columnCodOpt" msprop:Generator_ColumnPropNameInRow="CodOpt" msprop:Generator_ColumnPropNameInTable="CodOptColumn" msprop:Generator_UserColumnName="CodOpt" type="xs:string" minOccurs="0" />
+              <xs:element name="LibOpt" msprop:Generator_ColumnVarNameInTable="columnLibOpt" msprop:Generator_ColumnPropNameInRow="LibOpt" msprop:Generator_ColumnPropNameInTable="LibOptColumn" msprop:Generator_UserColumnName="LibOpt" type="xs:string" minOccurs="0" />
+              <xs:element name="CodProm" msprop:Generator_ColumnVarNameInTable="columnCodProm" msprop:Generator_ColumnPropNameInRow="CodProm" msprop:Generator_ColumnPropNameInTable="CodPromColumn" msprop:Generator_UserColumnName="CodProm" type="xs:string" minOccurs="0" />
+              <xs:element name="LibProm" msprop:Generator_ColumnVarNameInTable="columnLibProm" msprop:Generator_ColumnPropNameInRow="LibProm" msprop:Generator_ColumnPropNameInTable="LibPromColumn" msprop:Generator_UserColumnName="LibProm" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EtatHorraire" msprop:Generator_TableClassName="EtatHorraireDataTable" msprop:Generator_TableVarName="tableEtatHorraire" msprop:Generator_RowChangedName="EtatHorraireRowChanged" msprop:Generator_TablePropName="EtatHorraire" msprop:Generator_RowDeletingName="EtatHorraireRowDeleting" msprop:Generator_RowChangingName="EtatHorraireRowChanging" msprop:Generator_RowEvHandlerName="EtatHorraireRowChangeEventHandler" msprop:Generator_RowDeletedName="EtatHorraireRowDeleted" msprop:Generator_RowClassName="EtatHorraireRow" msprop:Generator_UserTableName="EtatHorraire" msprop:Generator_RowEvArgName="EtatHorraireRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LibSit" msprop:Generator_ColumnVarNameInTable="columnLibSit" msprop:Generator_ColumnPropNameInRow="LibSit" msprop:Generator_ColumnPropNameInTable="LibSitColumn" msprop:Generator_UserColumnName="LibSit" type="xs:string" minOccurs="0" />
+              <xs:element name="LibSem" msprop:Generator_ColumnVarNameInTable="columnLibSem" msprop:Generator_ColumnPropNameInRow="LibSem" msprop:Generator_ColumnPropNameInTable="LibSemColumn" msprop:Generator_UserColumnName="LibSem" type="xs:string" minOccurs="0" />
+              <xs:element name="DateEnseig" msprop:Generator_ColumnVarNameInTable="columnDateEnseig" msprop:Generator_ColumnPropNameInRow="DateEnseig" msprop:Generator_ColumnPropNameInTable="DateEnseigColumn" msprop:Generator_UserColumnName="DateEnseig" type="xs:string" minOccurs="0" />
+              <xs:element name="HeureDeb" msprop:Generator_ColumnVarNameInTable="columnHeureDeb" msprop:Generator_ColumnPropNameInRow="HeureDeb" msprop:Generator_ColumnPropNameInTable="HeureDebColumn" msprop:Generator_UserColumnName="HeureDeb" type="xs:string" minOccurs="0" />
+              <xs:element name="HeureFin" msprop:Generator_ColumnVarNameInTable="columnHeureFin" msprop:Generator_ColumnPropNameInRow="HeureFin" msprop:Generator_ColumnPropNameInTable="HeureFinColumn" msprop:Generator_UserColumnName="HeureFin" type="xs:string" minOccurs="0" />
+              <xs:element name="Nom" msprop:Generator_ColumnVarNameInTable="columnNom" msprop:Generator_ColumnPropNameInRow="Nom" msprop:Generator_ColumnPropNameInTable="NomColumn" msprop:Generator_UserColumnName="Nom" type="xs:string" minOccurs="0" />
+              <xs:element name="Postnom" msprop:Generator_ColumnVarNameInTable="columnPostnom" msprop:Generator_ColumnPropNameInRow="Postnom" msprop:Generator_ColumnPropNameInTable="PostnomColumn" msprop:Generator_UserColumnName="Postnom" type="xs:string" minOccurs="0" />
+              <xs:element name="LibCour" msprop:Generator_ColumnVarNameInTable="columnLibCour" msprop:Generator_ColumnPropNameInRow="LibCour" msprop:Generator_ColumnPropNameInTable="LibCourColumn" msprop:Generator_UserColumnName="LibCour" type="xs:string" minOccurs="0" />
+              <xs:element name="LibProm" msprop:Generator_ColumnVarNameInTable="columnLibProm" msprop:Generator_ColumnPropNameInRow="LibProm" msprop:Generator_ColumnPropNameInTable="LibPromColumn" msprop:Generator_UserColumnName="LibProm" type="xs:string" minOccurs="0" />
+              <xs:element name="Intitul" msprop:Generator_ColumnVarNameInTable="columnIntitul" msprop:Generator_ColumnPropNameInRow="Intitul" msprop:Generator_ColumnPropNameInTable="IntitulColumn" msprop:Generator_UserColumnName="Intitul" type="xs:string" minOccurs="0" />
+              <xs:element name="Descript" msprop:Generator_ColumnVarNameInTable="columnDescript" msprop:Generator_ColumnPropNameInRow="Descript" msprop:Generator_ColumnPropNameInTable="DescriptColumn" msprop:Generator_UserColumnName="Descript" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EnseignatLocal" msprop:Generator_TableClassName="EnseignatLocalDataTable" msprop:Generator_TableVarName="tableEnseignatLocal" msprop:Generator_TablePropName="EnseignatLocal" msprop:Generator_RowDeletingName="EnseignatLocalRowDeleting" msprop:Generator_RowChangingName="EnseignatLocalRowChanging" msprop:Generator_RowEvHandlerName="EnseignatLocalRowChangeEventHandler" msprop:Generator_RowDeletedName="EnseignatLocalRowDeleted" msprop:Generator_UserTableName="EnseignatLocal" msprop:Generator_RowChangedName="EnseignatLocalRowChanged" msprop:Generator_RowEvArgName="EnseignatLocalRowChangeEvent" msprop:Generator_RowClassName="EnseignatLocalRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Descript" msprop:Generator_ColumnVarNameInTable="columnDescript" msprop:Generator_ColumnPropNameInRow="Descript" msprop:Generator_ColumnPropNameInTable="DescriptColumn" msprop:Generator_UserColumnName="Descript" type="xs:string" minOccurs="0" />
+              <xs:element name="Intitul" msprop:Generator_ColumnVarNameInTable="columnIntitul" msprop:Generator_ColumnPropNameInRow="Intitul" msprop:Generator_ColumnPropNameInTable="IntitulColumn" msprop:Generator_UserColumnName="Intitul" type="xs:string" minOccurs="0" />
+              <xs:element name="Nom" msprop:Generator_ColumnVarNameInTable="columnNom" msprop:Generator_ColumnPropNameInRow="Nom" msprop:Generator_ColumnPropNameInTable="NomColumn" msprop:Generator_UserColumnName="Nom" type="xs:string" minOccurs="0" />
+              <xs:element name="Postnom" msprop:Generator_ColumnVarNameInTable="columnPostnom" msprop:Generator_ColumnPropNameInRow="Postnom" msprop:Generator_ColumnPropNameInTable="PostnomColumn" msprop:Generator_UserColumnName="Postnom" type="xs:string" minOccurs="0" />
+              <xs:element name="DateEnseig" msprop:Generator_ColumnVarNameInTable="columnDateEnseig" msprop:Generator_ColumnPropNameInRow="DateEnseig" msprop:Generator_ColumnPropNameInTable="DateEnseigColumn" msprop:Generator_UserColumnName="DateEnseig" type="xs:string" minOccurs="0" />
+              <xs:element name="HeureDeb" msprop:Generator_ColumnVarNameInTable="columnHeureDeb" msprop:Generator_ColumnPropNameInRow="HeureDeb" msprop:Generator_ColumnPropNameInTable="HeureDebColumn" msprop:Generator_UserColumnName="HeureDeb" type="xs:string" minOccurs="0" />
+              <xs:element name="HeureFin" msprop:Generator_ColumnVarNameInTable="columnHeureFin" msprop:Generator_ColumnPropNameInRow="HeureFin" msprop:Generator_ColumnPropNameInTable="HeureFinColumn" msprop:Generator_UserColumnName="HeureFin" type="xs:string" minOccurs="0" />
+              <xs:element name="LibCour" msprop:Generator_ColumnVarNameInTable="columnLibCour" msprop:Generator_ColumnPropNameInRow="LibCour" msprop:Generator_ColumnPropNameInTable="LibCourColumn" msprop:Generator_UserColumnName="LibCour" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
